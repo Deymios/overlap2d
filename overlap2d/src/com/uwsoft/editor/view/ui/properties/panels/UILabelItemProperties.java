@@ -43,7 +43,7 @@ public class UILabelItemProperties extends UIItemCollapsibleProperties {
         alignSelectBox = new VisSelectBox<>();
         boldCheckBox = new VisCheckBox(null);
         italicCheckBox = new VisCheckBox(null);
-        fontSizeField = new NumberSelector("", 12, 0, 100);
+        fontSizeField = new NumberSelector("", 12, 0, 200);
 
         fontFamilySelectBox.setMaxListCount(10);
         alignSelectBox.setMaxListCount(10);
